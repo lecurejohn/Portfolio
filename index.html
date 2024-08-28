@@ -13,6 +13,10 @@
     <header>
         <div class="boxed">
             <div class="flex aligncenter space-between" >
+                <button onclick="openMenu()" class="header_menu_mobile">
+                     <span class="material-icons">widgets</span>
+                     <!-- <span class="material-icons">menu</span> -->
+                </button>
                 <a href="/" class="header_logo"> 
                     <img src="images/gb.png" alt="">
                 </a>
@@ -23,6 +27,13 @@
                     <li><a href="">Réalisations</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
+
+                <!--<button onclick="openMenu()" class="header_menu_mobile_exit">
+                    <span class="material-icons">close_fullscreen</span>
+                     <span class="material-icons">close</span> 
+               </button>-->
+
+
             </div>
         </div>
     </header>
@@ -100,16 +111,16 @@
     <div class="section">
         <div class="boxed text-center">
             <h2>Mes réalisations</h2>
-            <div class="flex wrap  gap20 space-between">
+            <div class="flex wrap mcenter gap20 space-between">
 
-                <div class="case_realisation realisation">
+                <div class="case_realisation w47 realisation">
                         <a href=""> <img src="images/freshteam.png" alt="">
                             <h3>Freshteam</h3>
                         </a>
                         
                 </div>
 
-                <div class="case_realisation realisation">
+                <div class="case_realisation w47 realisation">
                     <a href=""> <img src="images/freshteam.png" alt=""></a>
                  </div>
             </div>
@@ -121,19 +132,19 @@
     <div class="section  dark">
         <div class="boxed text-center">
                 <h2>Contactez-moi</h2>
-                <div class="flex space-between">
+                <div class="flex mediatocolum  mcenter mgap20 space-between">
 
-                    <div class="case_realisation contact ">
+                    <div class="case_realisation widthmedia70 contact ">
                         <span class="material-icons icon">mail</span>
                         <span class="email1">E-mail</span>
                         <span class="freshteamfr">freshteam.fr</span>
                     </div>
-                    <div class="case_realisation contact ">
+                    <div class="case_realisation contact widthmedia70 ">
                         <span class="material-icons icon">phone</span>
                         <span class="email1">Téléphone/ WHATSAPP</span>
                         <span class="freshteamfr">00228 96621036</span>
                     </div>
-                    <div class="case_realisation contact ">
+                    <div class="case_realisation contact widthmedia70 ">
                         <span class="material-icons icon">share_location</span>
                         <span class="email1">PAYS/VILLE</span>
                         <span class="freshteamfr">TOGO/LOME</span>
