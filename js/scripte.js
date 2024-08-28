@@ -4,7 +4,7 @@
 // }   ou bien 
 
 const openMenu = () => {
-    const menu = document.querySelector(".header.menu");
+    const menu = document.querySelector(".header_menu");
     menu.classList.toggle("active");
     if (menu.classList.contains("active")){
         document.querySelector("header .material-icons").innerHTML = "close_fullscreen"
